@@ -1,0 +1,12 @@
+#bg-dark {
+    background-color: black !important;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: rgb(255, 0, 0) !important;
+    font-weight: 700;
+}
+
+.logo {
+    width: 60px;
+}
