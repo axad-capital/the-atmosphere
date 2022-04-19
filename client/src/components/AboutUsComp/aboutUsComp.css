@@ -1,0 +1,33 @@
+.about-container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    max-width: 700px;
+}
+
+.about-top > h1 {
+    font-weight: 800;
+}
+
+.line2 {
+    border-bottom: 1px solid black;
+    margin-top: 30px;
+}
+
+.about-top > p {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.light-logo-container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.light-logo {
+    width: 100%;
+}
+
+.about-bottom > p {
+    font-size: 15px;
+}

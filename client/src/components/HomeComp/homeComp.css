@@ -1,0 +1,105 @@
+.home-header-container {
+    background-image: url('./valentines-nyc.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80%;
+    aspect-ratio: 2/1;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.header-title {
+    color: rgb(255, 255, 255);
+    padding: 60px;
+    font-size: 50px;
+}
+
+.line {
+    border-bottom: 1px solid white;
+    margin: 20px auto;
+    width: 50%;
+    min-width: 200px;
+}
+
+.header-sub-title {
+    color: white;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.logo-home-container {
+    text-align: center;
+    /* background-color: white; */
+    margin: 0px auto;
+    width: 200px;
+    /* height: 200px;
+    border-radius: 100%; */
+}
+
+.logo-home {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.daring {
+    color: red;
+}
+
+.soph {
+    color: rgb(214, 71, 119);
+}
+
+.home-info {
+    width: 50%;
+    padding: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.home-info-text {
+    font-size: 25px;
+}
+
+.exper {
+    color: red;
+}
+
+.home-img-container {
+    width: 50%;
+    min-width: 280px;
+    text-align: center;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.home-img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1030px) {
+    .home-img-container {
+        width: 80%;
+    }
+
+    .home-info {
+        width: 80%;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .home-header-container {
+        padding-top: 20px;
+    }
+
+    .header-title {
+        font-size: 30px;
+    }
+
+    .header-sub-title {
+        font-size: 20px;
+    }
+}
