@@ -5,7 +5,7 @@ import LightLogo from './light-logo.JPG'
 
 const AboutUsComp = () => {
     return (
-        <div>
+        <div className='about-bg'>
             <div className='about-container'>
                 <div className='about-top'>
                     <h1>One Of New York City's Most Daring Social Clubs</h1>
