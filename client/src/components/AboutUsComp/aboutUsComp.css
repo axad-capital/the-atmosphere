@@ -13,17 +13,12 @@
     color: rgb(255, 255, 255);
 }
 
-.about-top > h1 {
-    font-weight: 800;
-}
-
 .line2 {
     border-bottom: 1px solid gold;
     margin-top: 30px;
 }
 
 .about-top > p {
-    font-weight: 600;
     font-size: 20px;
 }
 
