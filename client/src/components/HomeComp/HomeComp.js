@@ -1,7 +1,8 @@
 import React from 'react'
 import './homeComp.css'
-import Logo from './logo-noBG.png'
+import Logo from './gold-logo.png'
 import Hay from './Haley.jpg'
+import BGImg from './home-gif-3.gif'
 
 const HomeComp = () => {
   return (
@@ -10,10 +11,11 @@ const HomeComp = () => {
       <div className="header-container">
         <div className="header-wrapper">
           <div className="header">
-            <h1 className='header-title'>AN AGENCY FOR THE <span className='gold'>DARING</span> AND <span className='blue'>SOPHISTICATED</span></h1>
+            <h1 className='header-title'>AN AGENCY FOR THE <span className='gold'>DARING</span> AND <span className='gold'>SOPHISTICATED</span></h1>
           </div>
           <div className="header-img-container">
             <img className="header-img" src={Logo} alt="logo" />
+            <img className="headerBG-img" src={BGImg} alt="background" />
           </div>
         </div>
         <div className='header-sub-title'>
@@ -23,13 +25,13 @@ const HomeComp = () => {
 
       <div className='sub-heading-container'>
         <div className='sub-heading'>
-        <div className="line"></div>
-        <br />
+          <div className="line"></div>
+          <br />
           <p className='sub-heading-title'>THE BEST AT WHAT WE DO</p>
           <div className="line"></div>
           <br />
           <p className='sub-heading-text'>WITH OVER 10 YEARS OF COMBINED EXPERIENCE IN NIGHTLIFE STRATEGY, ENTERTAINMENT RELATIONS, AND EXPERIENTIAL OCCASIONS, WE STRIVE IN CATERING TO OUR ADVENTUROUS CLIENTS WITH THE BEST SERVICES POSSIBLE. CONTACT US AT ____________ TO INQUIRE.</p>
-        <div className="line"></div>
+          <div className="line"></div>
         </div>
         <div className='hay-img-container'>
           <img className='hay-img' src={Hay} alt="model" />
