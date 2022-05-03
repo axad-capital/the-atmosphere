@@ -27,10 +27,10 @@ const HomeComp = () => {
         <div className='sub-heading'>
           <div className="line"></div>
           <br />
-          <p className='sub-heading-title'>THE BEST AT WHAT WE DO</p>
+          <p className='sub-heading-title'>EXPECT THE UNEXPECTED</p>
           <div className="line"></div>
           <br />
-          <p className='sub-heading-text'>WITH OVER 10 YEARS OF COMBINED EXPERIENCE IN NIGHTLIFE STRATEGY, ENTERTAINMENT RELATIONS, AND EXPERIENTIAL OCCASIONS, WE STRIVE IN CATERING TO OUR ADVENTUROUS CLIENTS WITH THE BEST SERVICES POSSIBLE. CONTACT US AT ____________ TO INQUIRE.</p>
+          <p className='sub-heading-text'>WITH OVER 10 YEARS OF COMBINED EXPERIENCE IN NIGHTLIFE STRATEGY, ENTERTAINMENT RELATIONS, AND EXPERIENTIAL OCCASIONS, WE STRIVE IN CATERING TO OUR ADVENTUROUS CLIENTS WITH THE BEST SERVICES POSSIBLE. <span className='gold'>CONTACT</span> US AT <a className='victor-email' href="mailto:Victor@Atmosphere.com">Victor@Atmosphere.com</a> TO INQUIRE.</p>
           <div className="line"></div>
         </div>
         <div className='hay-img-container'>

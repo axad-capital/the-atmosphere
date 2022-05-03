@@ -1,7 +1,8 @@
 import React from 'react'
 import './aboutUsComp.css'
 import { Link } from 'react-router-dom';
-import LightLogo from './light-logo.JPG'
+// import LightLogo from './light-logo.JPG'
+import HayAbout from './hay-about-img.jpg'
 
 const AboutUsComp = () => {
     return (
@@ -9,8 +10,11 @@ const AboutUsComp = () => {
             <div className='about-container'>
                 <div className='about-top'>
                     <h1>One Of New York City's Most Daring Social Clubs</h1>
-
                     <br />
+
+                    <p className='orbit-text'>Your're in our Orbit, you breathe our Atmosphere</p>
+                    <br />
+
                     <p>The Atmosphere corporation was founded in 2022 by a collective of like-minded people who share & strive for the same goals in life. We are a private members-only club specializing in providing a safe and well-curated environment for the pursuit of happiness and erotic freedom.</p>
 
                     <p>It is with great pride that we serve our members and guests the best social and entertainment experience New York City has to offer.    -----  you're in our Orbit, You breathe in our Atmosphere. </p>
@@ -18,8 +22,8 @@ const AboutUsComp = () => {
 
                 <br />
                 <div className="line2"></div>
-                <div className="light-logo-container">
-                    <img src={LightLogo} alt="logo" className="light-logo" />
+                <div className="hay-about-container">
+                    <img src={HayAbout} alt="logo" className="hay-about-img" />
                 </div>
                 <div className="line2"></div>
                 <br />

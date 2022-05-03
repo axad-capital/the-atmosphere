@@ -22,12 +22,16 @@
     font-size: 20px;
 }
 
-.light-logo-container {
-    width: 80%;
+.orbit-text {
+    font-size: 25px !important;
+    color: goldenrod;
+}
+
+.hay-about-container {
     margin: 20px auto;
 }
 
-.light-logo {
+.hay-about-img {
     width: 100%;
 }
 

@@ -9,6 +9,7 @@ import Agency from './pages/Agency'
 import Event from './pages/Event'
 import Tickets from './pages/Tickets'
 import Apply from './pages/Apply'
+import FooterComp from './components/FooterComp/FooterComp';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route exact path='/tickets' element={<Tickets />} />
           <Route exact path='/apply' element={<Apply />} />
         </Routes>
+        <FooterComp />
       </Router>
     </div>
   );
