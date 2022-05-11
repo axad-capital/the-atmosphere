@@ -1,8 +1,11 @@
 import React from 'react'
+import ApplyComp from '../components/ApplyComp/ApplyComp'
 
 const Apply = () => {
   return (
-    <div>Apply</div>
+    <div>
+        <ApplyComp />
+    </div>
   )
 }
 
