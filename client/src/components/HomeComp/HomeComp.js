@@ -2,13 +2,15 @@ import React from 'react'
 import './homeComp.css'
 import Logo from './gold-logo.png'
 import Hay from './Haley.jpg'
-import BGImg from './home-gif-3.gif'
+// import BGImg from './home-gif-3.gif'
+import BGImg from './eclipse-bg.gif'
 
 const HomeComp = () => {
   return (
     <div className='home-page-content'>
 
       <div className="header-container">
+
         <div className="header-wrapper">
           <div className="header">
             <h1 className='header-title'>AN AGENCY FOR THE <span className='gold'>DARING</span> AND <span className='gold'>SOPHISTICATED</span></h1>
@@ -18,6 +20,7 @@ const HomeComp = () => {
             <img className="headerBG-img" src={BGImg} alt="background" />
           </div>
         </div>
+
         <div className='header-sub-title'>
           <p className='sub-title'>THE ATMOSPHERE CREATIVE SPECIALIZES IN PROVIDING YOU WITH NEW YORK CITY'S TOP SPECIALTY PERFORMERS, MODELS, AND EVENT PRODUCTION.</p>
         </div>
@@ -31,7 +34,7 @@ const HomeComp = () => {
           <div className="line"></div>
           <br />
           <p className='sub-heading-text'>WITH OVER 10 YEARS OF COMBINED EXPERIENCE IN NIGHTLIFE STRATEGY, ENTERTAINMENT RELATIONS, AND EXPERIENTIAL OCCASIONS, WE STRIVE IN CATERING TO OUR ADVENTUROUS CLIENTS WITH THE BEST SERVICES POSSIBLE. <span className='gold'>CONTACT</span> US AT <a className='victor-email' href="mailto:Victor@Atmosphere.com">Victor@Atmosphere.com</a> TO INQUIRE.</p>
-          <div className="line"></div>
+          {/* <div className="line"></div> */}
         </div>
         <div className='hay-img-container'>
           <img className='hay-img' src={Hay} alt="model" />

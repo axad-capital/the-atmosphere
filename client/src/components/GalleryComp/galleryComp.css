@@ -1,0 +1,24 @@
+.mutePlay {
+    padding: 5px;
+    font-weight: 600;
+}
+
+.mutePlay:hover {
+    background-color: red;
+    color: white;
+}
+
+#videoClip {
+    cursor: pointer;
+}
+
+.image-link {
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    text-align: right;
+}
+
+.image-link:hover {
+    color: goldenrod;
+}

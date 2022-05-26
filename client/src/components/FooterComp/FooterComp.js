@@ -5,7 +5,7 @@ const FooterComp = () => {
   return (
     <div>
         <div className="footer-container">
-            <p>(footer component) TheAtmosphere 2022</p>
+            <p>The Atmosphere Corporation 2022</p>
         </div>
     </div>
   )
