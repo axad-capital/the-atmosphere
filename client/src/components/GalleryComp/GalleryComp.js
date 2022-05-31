@@ -1,12 +1,14 @@
 import React, { useState } from 'react'
-import Clip3 from './clip3.mp4'
-import Clip4 from './clip4.mp4'
-import Clip5 from './clip5.mp4'
+
 import './galleryComp.css'
 import { useLocation } from 'react-router-dom';
 
 
 const GalleryComp = () => {
+
+  let Clip3 = 'https://res.cloudinary.com/dtodsxdoy/video/upload/v1653661611/Atmosphere_-_Promo_Clip_3_v1.2_vppsak.mp4'
+  let Clip4 = 'https://res.cloudinary.com/dtodsxdoy/video/upload/v1653661641/Atmosphere_-_Promo_Clip_4_v1.2_g1ctmf.mp4'
+  let Clip5 = 'https://res.cloudinary.com/dtodsxdoy/video/upload/v1653661658/Atmosphere_-_Promo_Clip_5_v1.4_1_ivokwx.mp4'
 
   const location = useLocation()
 

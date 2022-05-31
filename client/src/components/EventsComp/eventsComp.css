@@ -1,0 +1,39 @@
+.pw-form {
+    border: 1px solid rgb(162, 121, 18);
+    border-radius: 10px;
+    text-align: center;
+    margin: 50px auto;
+    width: 95%;
+    max-width: 300px;
+    min-width: 200px;
+    padding: 10px;
+}
+
+.pw-form-label {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.pw-form-input {
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.pw-form-input:focus {
+    outline: none !important;
+    border: 2px solid rgb(162, 121, 18);
+}
+
+.pw-form-btn {
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    background-color: goldenrod;
+    color: white;
+}
+
+.pw-form-btn:hover {
+    background-color: darkgoldenrod;
+}

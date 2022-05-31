@@ -1,8 +1,11 @@
 import React from 'react'
+import EventsComp from '../components/EventsComp/EventsComp'
 
 const Event = () => {
   return (
-    <div>Event</div>
+    <div>
+      <EventsComp />
+    </div>
   )
 }
 
