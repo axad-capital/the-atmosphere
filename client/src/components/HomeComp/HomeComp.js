@@ -3,7 +3,7 @@ import './homeComp.css'
 import Logo from './gold-logo.png'
 import Hay from './Haley.jpg'
 // import BGImg from './home-gif-3.gif'
-import BGImg from './eclipse-bg.gif'
+import BGImg from './gold-ring-bg.gif'
 
 const HomeComp = () => {
   return (

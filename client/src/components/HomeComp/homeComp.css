@@ -1,6 +1,6 @@
 .home-page-content {
-    background-image: url('./home-Bg.jpg');
-    background-size: cover;
+    background-image: url('./home-bg-gold.png');
+    
     background-position: center;
 }
 
@@ -11,6 +11,11 @@
 .header-wrapper {
     display: flex;
     align-items: center;
+    /* background-image: url('./gold-scale-bg.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+    background-position: center; */
 }
 
 .header {
@@ -19,7 +24,7 @@
 }
 
 .header-title {
-    max-width: 600px;
+    max-width: 650px;
     min-width: 300px;
     color: white;
     font-size: 70px;
@@ -44,7 +49,7 @@
     top: 50%;
     transform: translate(-50%, -50%);
     width: 50%;
-    max-width: 250px;
+    max-width: 300px;
 }
 
 .gold {
@@ -67,7 +72,7 @@
     margin: 0 auto;
     align-items: center;
     gap: 100px;
-    background-color: rgb(19, 19, 19, 0.9);
+    background-color: rgb(19, 19, 19);
     padding: 100px;
 }
 
