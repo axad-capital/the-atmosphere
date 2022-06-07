@@ -1,11 +1,4 @@
 {
-  "dependencies": {
-    "concurrently": "^7.1.0",
-    "dotenv": "^16.0.1",
-    "express": "^4.17.3",
-    "mongoose": "^6.3.0",
-    "nodemon": "^2.0.15"
-  },
   "name": "the-atmosphere",
   "description": "",
   "version": "1.0.0",
@@ -30,5 +23,13 @@
   "bugs": {
     "url": "https://github.com/axad-capital/the-atmosphere/issues"
   },
-  "homepage": "https://github.com/axad-capital/the-atmosphere#readme"
+  "homepage": "https://github.com/axad-capital/the-atmosphere#readme",
+  "dependencies": {
+    "concurrently": "^7.1.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.3",
+    "mongoose": "^6.3.0",
+    "nodemon": "^2.0.15",
+    "stripe": "^9.6.0"
+  }
 }

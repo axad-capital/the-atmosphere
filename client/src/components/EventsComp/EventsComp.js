@@ -1,9 +1,13 @@
 import React, { useState } from "react"
 import './eventsComp.css'
+import Product from "./Product"
 
 const EventsComp = () => {
 
-    const [pwCode, setPwCode] = useState(false)
+    // pub key - pk_test_51L7jtaH2pf8AJYNfcMYk5hGn2uwh4c9LNtso7FLcsreJLD1j7JKKGf0TvEfKm5wUQZJrtQ6moAoSjctojX6Zkhd900eZxRaVMv
+    // secret key - sk_test_51L7jtaH2pf8AJYNfhVyMXLGXwzy8dAYknfjGtoFsgA5S9oRpUwug3yAXhGFmppJLRiVqbdVABRWizHXzsivAXjcW00OJuoynZx
+
+    const [pwCode, setPwCode] = useState(true)
 
     let code = process.env.REACT_APP_CODE_PW
 
@@ -16,20 +20,20 @@ const EventsComp = () => {
 
 
     return (
-        <div style={{minHeight: '75.5vh'}}>
+        <div style={{ minHeight: '75.5vh' }}>
             {!pwCode ?
                 <div className="pw-form" data-aos="flip-up">
                     <label className="pw-form-label" htmlFor="password">Please Type Secert Password</label>
                     <br />
                     <br />
-                    <input className="pw-form-input" id='pw' type="password" placeholder="Password"/>
+                    <input className="pw-form-input" id='pw' type="password" placeholder="Password" />
                     <br />
                     <br />
                     <button className="pw-form-btn" onClick={handlePasswordSubmit}>SUBMIT</button>
                 </div>
                 :
                 <div>
-                    Event Info
+                    <Product />
                 </div>}
         </div>
     )
