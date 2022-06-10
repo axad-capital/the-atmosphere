@@ -11,6 +11,7 @@ import Event from './pages/Event'
 // import Tickets from './pages/Tickets'
 import Apply from './pages/Apply'
 import FooterComp from './components/FooterComp/FooterComp';
+import CartComp from './components/CartComp/CartComp';
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
           <Route exact path='/event' element={<Event />} />
           {/* <Route exact path='/tickets' element={<Tickets />} /> */}
           <Route exact path='/apply' element={<Apply />} />
+          <Route exact path='/cart' element={<CartComp />} />
+
         </Routes>
         <FooterComp />
       </Router>

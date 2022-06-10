@@ -4,7 +4,6 @@ import Product from "./Product"
 
 const EventsComp = () => {
 
-    // pub key - pk_test_51L7jtaH2pf8AJYNfcMYk5hGn2uwh4c9LNtso7FLcsreJLD1j7JKKGf0TvEfKm5wUQZJrtQ6moAoSjctojX6Zkhd900eZxRaVMv
     // secret key - sk_test_51L7jtaH2pf8AJYNfhVyMXLGXwzy8dAYknfjGtoFsgA5S9oRpUwug3yAXhGFmppJLRiVqbdVABRWizHXzsivAXjcW00OJuoynZx
 
     const [pwCode, setPwCode] = useState(true)

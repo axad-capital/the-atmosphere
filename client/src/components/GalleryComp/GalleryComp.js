@@ -13,7 +13,7 @@ const GalleryComp = () => {
   const location = useLocation()
 
   const [playPause, setPlayPause] = useState('Pause')
-  const [mute, setMute] = useState('Mute')
+  const [mute, setMute] = useState('Unmute')
   const [currentVid, setCurrentVid] = useState(Math.floor(Math.random() * 3))
 
   if (location.pathname === '/gallery') {
