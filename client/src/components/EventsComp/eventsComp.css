@@ -1,8 +1,7 @@
 .pw-form {
-    border: 1px solid rgb(162, 121, 18);
     border-radius: 10px;
     text-align: center;
-    margin: 50px auto;
+    margin: 0px auto;
     width: 95%;
     max-width: 300px;
     min-width: 200px;
@@ -12,6 +11,7 @@
 .pw-form-label {
     font-weight: 600;
     font-size: 18px;
+    color: rgb(255, 193, 36);
 }
 
 .pw-form-input {
@@ -19,24 +19,29 @@
     border-radius: 8px;
     border: 1px solid black;
     margin: 0 auto;
+    background-color: black;
+    color: rgb(252, 191, 34);
+}
+
+.pw-form-input::placeholder {
+    color: rgb(252, 191, 34);
 }
 
 .pw-form-input:focus {
     outline: none !important;
-    border: 2px solid rgb(162, 121, 18);
+    border: 2px solid rgb(252, 191, 34);
 }
 
-.pw-form-btn {
+/* .pw-form-btn {
     padding: 8px;
     border: none;
     border-radius: 10px;
-    background-color: goldenrod;
-    color: white;
-}
+    color: rgb(252, 191, 34);
+} */
 
-.pw-form-btn:hover {
+/* .pw-form-btn:hover {
     background-color: darkgoldenrod;
-}
+} */
 
 .event-container {
     background-image: url('../HomeComp/home-bg-gold.png');
@@ -72,5 +77,5 @@
 
 .event-logo-img {
     width: 80%;
-    max-width: 300px;
+    max-width: 220px;
 }

@@ -22,3 +22,16 @@
 .image-link:hover {
     color: goldenrod;
 }
+
+.gallery-container {
+    background-image: url('../HomeComp/home-bg-gold.png');
+    background-position: top
+}
+
+.gallery-container > div > video {
+    width: 73%;
+    background-color: black;
+    text-align: center !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}

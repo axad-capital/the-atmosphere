@@ -1,11 +1,12 @@
 .home-page-content {
     background-image: url('./home-bg-gold.png');
-    
     background-position: center;
+    border-bottom: 2px solid goldenrod;
 }
 
 .header-container {
     background-color: black;
+    border-bottom: 2px solid goldenrod;
 }
 
 .header-wrapper {
@@ -49,7 +50,7 @@
     top: 50%;
     transform: translate(-50%, -50%);
     width: 50%;
-    max-width: 300px;
+    max-width: 270px;
 }
 
 .gold {

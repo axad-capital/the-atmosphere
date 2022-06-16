@@ -3,7 +3,7 @@ import './homeComp.css'
 import Logo from './gold-logo.png'
 import Hay from './Haley.jpg'
 // import BGImg from './home-gif-3.gif'
-import BGImg from './gold-ring-bg.gif'
+import BGImg from './home-gif-3.gif'
 
 const HomeComp = () => {
   return (
@@ -33,7 +33,7 @@ const HomeComp = () => {
           <p className='sub-heading-title'>EXPECT THE UNEXPECTED</p>
           <div className="line"></div>
           <br />
-          <p className='sub-heading-text'>WITH OVER 10 YEARS OF COMBINED EXPERIENCE IN NIGHTLIFE STRATEGY, ENTERTAINMENT RELATIONS, AND EXPERIENTIAL OCCASIONS, WE STRIVE IN CATERING TO OUR ADVENTUROUS CLIENTS WITH THE BEST SERVICES POSSIBLE. <span className='gold'>CONTACT</span> US AT <a className='victor-email' href="mailto:Victor@Atmosphere.com">Victor@Atmosphere.com</a> TO INQUIRE.</p>
+          <p className='sub-heading-text'>WITH OVER 10 YEARS OF COMBINED EXPERIENCE IN NIGHTLIFE STRATEGY, ENTERTAINMENT RELATIONS, AND EXPERIENTIAL OCCASIONS, WE STRIVE IN CATERING TO OUR ADVENTUROUS CLIENTS WITH THE BEST SERVICES POSSIBLE. <span className='gold'>CONTACT</span> US AT <a className='victor-email' href="mailto:Victor@Atmospherecorp.com">Victor@Atmospherecorp.com</a> TO INQUIRE WITHIN.</p>
           {/* <div className="line"></div> */}
         </div>
         <div className='hay-img-container'>

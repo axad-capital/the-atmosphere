@@ -1,5 +1,6 @@
 #bg-dark {
     background-color: black !important;
+    border-bottom: 2px solid goldenrod;
 }
 
 .navbar-dark .navbar-nav .nav-link.active {

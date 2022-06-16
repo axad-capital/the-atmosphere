@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { v4 as uuidv4 } from 'uuid';
 import Logo from '../HomeComp/gold-logo.png'
+import EventsGif from './giphy.gif'
 
 function addToCart(e) {
 
@@ -26,16 +27,34 @@ function addToCart(e) {
 const ProductDisplay = () => (
   <div className="event-container">
 
-    <section style={{ background: 'black', width: '50%', minWidth:'290px', maxWidth: '1200px', margin: '0 auto', padding: '50px', borderLeft: '10px solid goldenrod', borderRight: '10px solid goldenrod' }}>
+    <section style={{ background: 'black', width: '50%', minWidth: '290px', maxWidth: '1200px', margin: '0 auto', padding: '50px', borderLeft: '10px solid goldenrod', borderRight: '10px solid goldenrod' }}>
 
-      <div style={{ textAlign: 'right' }}>
-        <button className="add-to-cart-btn" onClick={() => window.location.href = '/cart'}>Go To Cart</button>
+      {/* <div className="event-logo-container">
+        <img className="event-logo-img" src={Logo} alt="logo" />
+      </div>
+      <br />
+      <br /> */}
+
+      <div style={{ textAlign: 'center' }}>
+        <h1 className="product-title"><span>ATMOSPHERE: SUMMER BLISS</span></h1>
+        <br />
+
+        <div style={{ width: '100%' }}>
+          <img style={{ width: '100%' }} src={EventsGif} alt="event-gif" />
+        </div>
+
+        <br />
+        <h5 className='product-info'>Saturday June 25th</h5>
+        <h5 className='product-info'>10PM-3AM</h5>
+        <h5 className='product-info'>SOHO NYC</h5>
+        <br />
+        <h4 className='product-info'>You open our doors and find yourself on enticingly unfamiliar terrain. Striking strangers float by as a drink slips into your hand and you wander from the familiarity of the outside world. Erotic wonders dot every corner and premium libations flow with ease. This new cosmos beckons with possibility. Could one night chart a new course? Could one chance encounter shoot you to the stars? You're pleasantly unsure but eager to find out. You're in our orbit, you breathe in our atmosphere.</h4>
       </div>
       <br />
       <br />
 
-      <div className="event-logo-container">
-        <img className="event-logo-img" src={Logo} alt="logo" />
+      <div style={{ textAlign: 'right' }}>
+        <button className="add-to-cart-btn" onClick={() => window.location.href = '/cart'}>Go To Cart</button>
       </div>
       <br />
       <br />
@@ -52,7 +71,7 @@ const ProductDisplay = () => (
 
       <div>
         <div>
-          <h3 className='product-info'>Couples: $1,000</h3>
+          <h3 className='product-info'>Couples: $800</h3>
         </div>
         <button data-title="Couples" className="add-to-cart-btn" id="price_1L8tLTH2pf8AJYNfYrSmo6nv" onClick={addToCart}>Add to Cart</button>
       </div>
@@ -60,7 +79,7 @@ const ProductDisplay = () => (
 
       <div>
         <div>
-          <h3 className='product-info'>Single Men: $1,200</h3>
+          <h3 className='product-info'>Single Men: $1,000</h3>
         </div>
         <button data-title="Single Men" className="add-to-cart-btn" id="price_1L8tOKH2pf8AJYNfp3C4tH4U" onClick={addToCart}>Add to Cart</button>
       </div>
@@ -68,7 +87,7 @@ const ProductDisplay = () => (
 
       <div>
         <div>
-          <h3 className='product-info'>Group Of Three: $2,700</h3>
+          <h3 className='product-info'>Group Of Three: $2,000</h3>
         </div>
         <button data-title="Group Of Three" className="add-to-cart-btn" id="price_1L8uCeH2pf8AJYNflaW6Ci6H" onClick={addToCart}>Add to Cart</button>
       </div>
@@ -95,7 +114,7 @@ const ProductDisplay = () => (
 
       <div>
         <div>
-          <h3 className='product-info'>Table For 4: $6,000</h3>
+          <h3 className='product-info'>Table For 4: $5,000</h3>
         </div>
         <button data-title="Table For 4" className="add-to-cart-btn" id="price_1L8uBAH2pf8AJYNfRSsq9W8p" onClick={addToCart}>Add to Cart</button>
       </div>
@@ -104,18 +123,14 @@ const ProductDisplay = () => (
 
       <h1 className="product-title"><span>Special Guest & Performances</span></h1>
       <br />
-      <h4 className='product-info'>- Adult star Mick Blue XXX</h4>
-      <h4 className='product-info'>- Adult star Emily Wils XXX</h4>
+      <h4 className='product-info'>- Top Shelf Open Bar</h4>
       <h4 className='product-info'>- Special fire performances</h4>
       <h4 className='product-info'>- Shibari play all night long</h4>
       <h4 className='product-info'>- Live sex shows & erotic performances</h4>
-      <br />
+      <h4 className='product-info'>- Adult award winning male star Mick Blue XXX</h4>
       <br />
 
-      <h1 className="product-title"><span>Special Guest & Performances</span></h1>
-      <br />
-      <h2 className='product-info' style={{ margin: 0 }}>Top Shel Open Bar</h2>
-
+      {/* <h1 className="product-title"><span>Special Guest & Performances</span></h1> */}
     </section>
   </div>
 );

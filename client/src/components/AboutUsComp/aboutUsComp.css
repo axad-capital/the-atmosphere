@@ -1,10 +1,10 @@
 .about-bg {
     /* background-image: url('./about-bg.jpg'); */
     box-shadow: inset 0 0 0 150vw rgba(0, 0, 0, 0.5);
-
     background-image: url('../HomeComp/home-bg-gold.png');
     background-size: cover;
     background-position: bottom;
+    border-bottom: 2px solid goldenrod;
 }
 
 .about-container {
@@ -15,6 +15,7 @@
     max-width: 700px;
     background-color: rgb(34, 34, 34);
     color: rgb(255, 255, 255);
+    
 }
 
 .line2 {
@@ -23,11 +24,11 @@
 }
 
 .about-top>p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .orbit-text {
-    font-size: 25px !important;
+    font-size: 20px !important;
     color: goldenrod;
 }
 
@@ -42,3 +43,4 @@
 .about-bottom>p {
     font-size: 15px;
 }
+
