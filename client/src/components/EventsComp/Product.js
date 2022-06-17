@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { v4 as uuidv4 } from 'uuid';
-import Logo from '../HomeComp/gold-logo.png'
+// import Logo from '../HomeComp/gold-logo.png'
 import EventsGif from './giphy.gif'
 
 function addToCart(e) {
@@ -65,7 +65,7 @@ const ProductDisplay = () => (
         <div>
           <h3 className='product-info'>Single Women: $300</h3>
         </div>
-        <button data-title="Single Women" className="add-to-cart-btn" id="price_1L8tE7H2pf8AJYNf1SvMUMd7" onClick={addToCart}>Add to Cart</button>
+        <button data-title="Single Women" className="add-to-cart-btn" id="price_1LBlFDH2pf8AJYNf9YXpS5Pz" onClick={addToCart}>Add to Cart</button>
       </div>
       <br />
 
@@ -73,7 +73,7 @@ const ProductDisplay = () => (
         <div>
           <h3 className='product-info'>Couples: $800</h3>
         </div>
-        <button data-title="Couples" className="add-to-cart-btn" id="price_1L8tLTH2pf8AJYNfYrSmo6nv" onClick={addToCart}>Add to Cart</button>
+        <button data-title="Couples" className="add-to-cart-btn" id="price_1LBlG6H2pf8AJYNfqlGeJBWt" onClick={addToCart}>Add to Cart</button>
       </div>
       <br />
 
@@ -81,7 +81,7 @@ const ProductDisplay = () => (
         <div>
           <h3 className='product-info'>Single Men: $1,000</h3>
         </div>
-        <button data-title="Single Men" className="add-to-cart-btn" id="price_1L8tOKH2pf8AJYNfp3C4tH4U" onClick={addToCart}>Add to Cart</button>
+        <button data-title="Single Men" className="add-to-cart-btn" id="price_1LBlH8H2pf8AJYNfKd35uxIz" onClick={addToCart}>Add to Cart</button>
       </div>
       <br />
 
@@ -89,7 +89,7 @@ const ProductDisplay = () => (
         <div>
           <h3 className='product-info'>Group Of Three: $2,000</h3>
         </div>
-        <button data-title="Group Of Three" className="add-to-cart-btn" id="price_1L8uCeH2pf8AJYNflaW6Ci6H" onClick={addToCart}>Add to Cart</button>
+        <button data-title="Group Of Three" className="add-to-cart-btn" id="price_1LBlHjH2pf8AJYNfEtS460AT" onClick={addToCart}>Add to Cart</button>
       </div>
       <br />
       <br />
@@ -100,7 +100,7 @@ const ProductDisplay = () => (
         <div>
           <h3 className='product-info'>Table For 2: $3,000</h3>
         </div>
-        <button data-title="Table For 2" className="add-to-cart-btn" id="price_1L8u8fH2pf8AJYNfk9ZRguvp" onClick={addToCart}>Add to Cart</button>
+        <button data-title="Table For 2" className="add-to-cart-btn" id="price_1LBlIlH2pf8AJYNfovHWi1SJ" onClick={addToCart}>Add to Cart</button>
       </div>
       <br />
 
@@ -108,7 +108,7 @@ const ProductDisplay = () => (
         <div>
           <h3 className='product-info'>Table For 3: $4,000</h3>
         </div>
-        <button data-title="Table For 3" className="add-to-cart-btn" id="price_1L8uA0H2pf8AJYNfmLjr7835" onClick={addToCart}>Add to Cart</button>
+        <button data-title="Table For 3" className="add-to-cart-btn" id="price_1LBlJZH2pf8AJYNf0cN1VEza" onClick={addToCart}>Add to Cart</button>
       </div>
       <br />
 
@@ -116,7 +116,7 @@ const ProductDisplay = () => (
         <div>
           <h3 className='product-info'>Table For 4: $5,000</h3>
         </div>
-        <button data-title="Table For 4" className="add-to-cart-btn" id="price_1L8uBAH2pf8AJYNfRSsq9W8p" onClick={addToCart}>Add to Cart</button>
+        <button data-title="Table For 4" className="add-to-cart-btn" id="price_1LBlKZH2pf8AJYNfUiF8Y2ut" onClick={addToCart}>Add to Cart</button>
       </div>
       <br />
       <br />
